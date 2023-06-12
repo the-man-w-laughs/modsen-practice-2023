@@ -2,14 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>IT_Door.Infrastructure</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IT-Door.Entities\IT_Door.Entities.csproj" />
-    <ProjectReference Include="..\IT-Door.Models\IT_Door.Models.csproj" />
+    <ProjectReference Include="..\IT_Door.Entities\IT_Door.Entities.csproj" />
+    <ProjectReference Include="..\IT_Door.Models\IT_Door.Models.csproj" />
   </ItemGroup>
 
 </Project>
